@@ -1,12 +1,32 @@
+
+@font-face {
+    font-family: JF-Flat;
+    src: url("/style/fonts/JF Flat Regular.otf");
+  }
+
+  body{
+      font-family: JF-Flat;
+  }
+
 #home{
+    color: white;
     height: 100vh;
+    background-image: url("/Images/Law-Hero.svg") ;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.logo{
+    display: block;
+    margin: auto;
+    width: 200px;
 }
 .header{
     display: flex;
     justify-content: center;
 }
 nav{
-    border-top: 2px solid #000826;
+    
+    border-top: 2px solid white;
     display:inline-flex;
     flex-direction: row;
     justify-content: center;
@@ -15,12 +35,13 @@ nav{
 }
 
 nav a{
+    
     font-size: 1.5em;
     display: inline-block;
     text-decoration: none;
     margin-left: 1.5em;
     margin-right: 1.5em; 
-    color: #000826;
+    color: white;
 }
 
 .hero-title{
@@ -47,6 +68,11 @@ margin-top: 2em;
     margin-bottom: 1em;
 }
 
+#about{
+    background: rgb(2,1,38);
+    color: white;
+    min-height: 60vh;
+}
 
 .strike {
     display: block;
@@ -66,10 +92,10 @@ margin-top: 2em;
 .strike > span:after {
     content: "";
     position: absolute;
-    top: 50%;
-    width: 9999px;
-    height: 1px;
-    background: #000826;
+    top: 65%;
+    width:9999px;
+    height: 2px;
+    background:  white;
 }
 
 .strike > span:before {
@@ -82,9 +108,165 @@ margin-top: 2em;
     margin-left: 15px;
 }
 
+.strike-left {
+    display: block;
+    text-align: left;
+    overflow: hidden;
+    white-space: nowrap; 
+    margin-bottom: 1em;
+}
+
+.strike-left > span {
+    position: relative;
+    display: inline-block;
+    font-size: 2em;
+    margin-left: 18%;
+}
+
+.strike-left > span:before,
+.strike-left > span:after {
+    content: "";
+    position: absolute;
+    top: 65%;
+    width:9999px;
+    height: 2px;
+    background:  white;
+}
+
+.strike-left > span:before {
+    right: 100%;
+    margin-right: 15px;
+}
+
+.strike-left > span:after {
+    left: 100%;
+    margin-left: 15px;
+}
+
+.strike-right {
+    display: block;
+    text-align: right;
+    overflow: hidden;
+    white-space: nowrap; 
+    margin-bottom: 1em;
+}
+
+.strike-right > span {
+    position: relative;
+    display: inline-block;
+    font-size: 2em;
+    margin-right: 18%;
+}
+
+.strike-right > span:before,
+.strike-right > span:after {
+    content: "";
+    position: absolute;
+    top: 65%;
+    width:9999px;
+    height: 2px;
+    background:  white;
+}
+
+.strike-right > span:before {
+    right: 100%;
+    margin-right: 15px;
+}
+
+.strike-right > span:after {
+    left: 100%;
+    margin-left: 15px;
+}
+
 .about-descriptions{
     display: block;
     margin: auto;
     text-align: justify;
-    width: 75%;
+    width: 50%;
+    font-size: 1.4em;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.Objectives-list li{
+    margin-bottom: 40px;
+}
+
+#services{
+    color: #f0f0f0;
+    color:  rgb(2,1,38);
+    height: 100vh;
+}
+
+.services-sub-title{
+    text-align: center;
+    font-size: 1.6em;
+}
+
+.service-underline{
+    height: 1px;
+    background: #000826;
+}
+
+.strike-short {
+    display: block;
+    text-align: center;
+    overflow: hidden;
+    white-space: nowrap; 
+    margin-bottom: 1em;
+}
+
+.strike-short > span {
+    position: relative;
+    display: inline-block;
+    font-size: 2em;
+}
+
+.strike-short > span:before,
+.strike-short > span:after {
+    content: "";
+    position: absolute;
+    top: 65%;
+    width:148px;
+    height: 2px;
+    background:  rgb(2,1,38);;
+}
+
+.strike-short > span:before {
+    right: 100%;
+    margin-right: 15px;
+}
+
+.strike-short > span:after {
+    left: 100%;
+    margin-left: 15px;
+}
+
+.service-block{
+    display:block;
+    margin-bottom: 120px;
+    padding-bottom: 20px;
+    transition: background-color 0.2s;
+}
+
+.service-block:hover{
+    background-color: #f5f5f5;
+}
+
+.service-descriptions{
+    display: block;
+    margin: auto;
+    text-align: justify;
+    width: 50%;
+    font-size: 1.4em;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+#Foreign-Investments-des{
+    
+}
+
+.hide{
+    display: none;
 }
