@@ -93,7 +93,7 @@
 
               <div id="all-services" class="row justify-content-md-center animated ">
                    <div class="col-md-3">
-              <div id="Foreign-Investments" class="service-block">
+              <div id="Foreign-Investments" class="service-block" onclick="showByID(this.id)">
               <div class="strike-short">
                 
                     <span class="about-sub-title">text</span>
@@ -239,28 +239,37 @@
           
         </div>
 
-        <div class="row justify-content-md-center">
-
-          <div id="Foreign-Investments-des" class="hide animated">
-              <div class="col-md-12">
-                  <div class="strike-short">
-                    
-                      <span class="about-sub-title">text</span>
-                  </div>
-                 
-                      <p class="services-sub-title">Foreign Investments</p>
-                 </div>
-    
-                 <div class="col-md-12">
-                    <div class="service-descriptions">
-                        There are many reasons why you should invest in Saudi Arabia. Saudi Arabia
-                        ranks 23rd among the 25 largest economic countries in the world. It has a special
-                        geographic location that attracts foreign investment. Our crew of consultants and
-                        lawyers from the Middle East and Europe ensure an attractive environment for
-                        foreign investors In Saudi Arabia
-                    </div>
-                 </div>
+        <div id="Foreign-Investments-des" class="modal animated">
+          <div id="out-of-modal" onclick="hideModal()">
+              
           </div>
+
+          <div class="modal-content">
+              <div class="row justify-content-md-center">
+          
+                  <div class="col-md-12">
+                      <div class="strike-short">
+                        
+                          <span class="about-sub-title">text</span>
+                      </div>
+                     
+                          <p class="services-sub-title">Foreign Investments</p>
+                     </div>
+        
+                     <div class="col-md-12">
+                        <div class="service-descriptions">
+                            There are many reasons why you should invest in Saudi Arabia. Saudi Arabia
+                            ranks 23rd among the 25 largest economic countries in the world. It has a special
+                            geographic location that attracts foreign investment. Our crew of consultants and
+                            lawyers from the Middle East and Europe ensure an attractive environment for
+                            foreign investors In Saudi Arabia
+                        </div>
+                     </div>
+              </div>
+          </div>
+        </div>
+
+
           
           </div>
         </div>
