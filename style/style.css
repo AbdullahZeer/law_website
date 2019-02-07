@@ -33,7 +33,26 @@ nav{
     align-items: center;
     margin-top: 4em;
 }
-
+.reflect{
+-moz-transform: scale(-1, 1) rotate(-20deg);
+-webkit-transform: scale(-1, 1) rotate(-20deg);
+-o-transform: scale(-1, 1) rotate(-20deg);
+-ms-transform: scale(-1, 1) rotate(-20deg);
+transform: scale(-1, 1) rotate(-20deg);
+font-size: 15rem; 
+margin: auto -13% auto auto;
+}
+.PaperVictor{
+    -ms-transform: rotate(-20deg); /* IE 9 */
+    -webkit-transform: rotate(-20deg); /* Safari */
+    transform: rotate(-20deg);
+    font-size: 15rem; 
+    margin: auto auto auto -13%;
+}
+.exrtaMargin{
+    width: 90%;
+    margin: auto;
+}
 nav a{
     
     font-size: 1.5em;
@@ -184,7 +203,7 @@ text-shadow: 0px 3px 9px #040736
     display: block;
     margin: auto;
     text-align: justify;
-    width: 50%;
+    width: 40%;
     font-size: 1.4em;
     margin-top: 80px;
     margin-bottom: 80px;
@@ -259,7 +278,7 @@ text-shadow: 0px 3px 9px #040736
     display: block;
     margin: auto;
     text-align: justify;
-    width: 50%;
+    width: 40%;
     font-size: 1.4em;
     margin-top: 80px;
     margin-bottom: 80px;
@@ -268,7 +287,9 @@ text-shadow: 0px 3px 9px #040736
 #Foreign-Investments-des{
     
 }
-
+.flexbox{
+    display: flex;
+}
 .hide{
     display: none;
 }
