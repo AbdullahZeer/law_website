@@ -89,6 +89,7 @@ text-shadow: 0px 3px 9px #040736
     font-size: 3em;
     text-align: center;
     margin-bottom: 1em;
+    margin-top: 120px;
 }
 
 #about{
@@ -225,6 +226,7 @@ text-shadow: 0px 3px 9px #040736
     color: #f0f0f0;
     color:  rgb(2,1,38);
     height: 100vh;
+    margin-bottom: 120px;
 }
 
 .services-sub-title{
@@ -280,7 +282,7 @@ text-shadow: 0px 3px 9px #040736
 }
 
 .service-block:hover{
-    background-color: #f5f5f5;
+    background-color: rgb(245,245,245,0.6);
 }
 
 .service-descriptions{
@@ -359,9 +361,16 @@ text-shadow: 0px 3px 9px #040736
     margin-bottom: 80px;
     margin-left: auto;
     margin-right: auto;
-    min-height: 20vh;
+    min-height: 25vh;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
     will-change: auto;
+  }
+
+  .card-title{
+      width: 90%;
+      text-align: center;
+      margin-left: auto;
+      margin-right: auto;
   }
 
   .card-text{
@@ -374,6 +383,9 @@ text-shadow: 0px 3px 9px #040736
     margin-right: auto;
     margin-bottom: 90px;
 }
+
+
+
 #Contactus{
     /* background-image: url("../Images/contactus.svg"); */
     
