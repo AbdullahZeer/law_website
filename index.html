@@ -575,6 +575,10 @@
               </div>
             </div>
           </div>
+
+
+
+
         </div>
       </div>
     </div>
@@ -585,17 +589,119 @@
       <div class="row">
           <div class="col-md-12 section-titles">Partners</div>
       </div>
-      <div>
-      </div>
-      <div class="card">
-          <div class="strike">
-              <span class="">Objectives</span>
-            </div>
-            <div class="card-text">
-                إيماناً منا بأهمية دور الوسيط وهو تسهيل المعاملات والعقود وتقريب وجهات النظر، وذلك بهدف سير الاعمال على أكمل وجه نتشرف بتعاون مثمر وفعال عن طريق تعبئة البيانات في الخانات التالية
-            </div>
+
+      
+      <div class="col-md-12">
+        <div id="mediators" class="card" onclick="toForm(this.id)">
+        <div class="strike">
+          <span class="">الوسطاء</span>
+        </div>
+        <div class="card-text ">
+          إيماناً منا بأهمية دور الوسيط وهو تسهيل المعاملات والعقود وتقريب وجهات النظر، وذلك بهدف سير الاعمال على أكمل
+          وجه نتشرف بتعاون مثمر وفعال عن طريق تعبئة البيانات في الخانات التالية
+        </div>
+
       </div>
     </div>
+
+    <div class="col-md-12">
+        <div id="CEO" class="card" onclick="toForm(this.id)" >
+        <div class="strike">
+          <span class="">المدراء التنفيذيين</span>
+        </div>
+        <div class="card-text ">
+            إيمانًا منا بأهمية دور المدراء التنفيذيين في إدارة الشركات والمساهمة في الإرتقاء بمستوى العمل الداخلي والخارجي للشركة ، فإننا نتطلع للتعاون الفعال و تبادل الخدمات عن طريق تعبئة البيانات في الخانات التالية.
+        </div>
+
+      </div>
+    </div>
+
+    <div class="col-md-12">
+        <div id="student" class="card" onclick="toForm(this.id)">
+        <div class="strike">
+          <span class="">القانونيين الطلاب</span>
+        </div>
+        <div class="card-text ">
+            لأننا نحدثكم من المستقبل، وانتم تسيرون خلفنا بنفس الطريق الذي قد واجهناه، نتطلع للتعرف عليكم من خلال تبادل المعلومات القانونية أو الاعمال المستقبلية.
+        </div>
+
+      </div>
+    </div>
+
+    <div class="col-md-12">
+        <div id="Trainees" class="card" onclick="toForm(this.id)" >
+        <div class="strike">
+          <span class="">المحامين المتدربين</span>
+        </div>
+        <div class="card-text ">
+            نفخر ونعتز بالزملاء المحاميين الذين اختاروا المحاماة طريقاً يستنيرون من خلاله العلم و المعرفة والملكة القانونية.
+        </div>
+
+      </div>
+    </div>
+
+    <div class="col-md-12">
+        <div id="Counselors" class="card" onclick="toForm(this.id)">
+        <div class="strike">
+
+          <span class="">المحامين و المستشارين القانونين</span>
+        </div>
+        <div class="card-text ">
+            نحنفي مجموعة علي الملحم للمحاماة والاستشارات القانونية، نتطلع للتعاون المثمر والفعال مع نخبه من المحامين والمستشارين القانونيين، وذلك لتبادل الخبرات القانونية والتجارب المختلفة.
+        </div>
+
+      </div>
+    </div>
+
+    <div class="col-md-12" id="Partners-form">
+      <form class="card-form">
+        <div class="form-group">
+          <label for="exampleInputEmail1">Name</label>
+          <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Name">
+        </div>
+        <div class="form-group">
+          <label for="exampleInputEmail1">type</label>
+          <select class="custom-select mr-sm-2" id="Partners-form-select">
+            <option selected>Choose...</option>
+            <option value="1">الوسطاء</option>
+            <option value="2">المدراء التنفيذيين</option>
+            <option value="3">القانونيين الطلاب</option>
+            <option value="4">المحامين المتدربين</option>
+            <option value="5">المحامين و المستشارين القانونين</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="exampleInputEmail1">Email address</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+        </div>
+        <div class="form-group">
+          <label for="exampleInputEmail1">Employer</label>
+          <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Employer">
+        </div>
+        <div class="form-group">
+          <label for="exampleInputEmail1">Job title</label>
+          <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Job title">
+        </div>
+        <div class="form-group">
+          <label for="exampleInputEmail1">Years of Experience</label>
+          <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Years of Experience">
+        </div>
+        <div class="form-group">
+          <label for="exampleInputEmail1">Mobile number</label>
+          <input type="number" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Years of Experience">
+        </div>
+        <div class="form-group">
+          <label for="exampleInputEmail1">CV</label>
+          <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter CV link">
+        </div>
+        <div class="form-group">
+          <label for="exampleFormControlTextarea1">Example textarea</label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+    </div>
+
   </section>
   <section id="Contactus">
     <div class="container-fluid">
