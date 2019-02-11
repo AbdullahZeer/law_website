@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?mqgxqe');
-  src:  url('fonts/icomoon.eot?mqgxqe#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?mqgxqe') format('truetype'),
-    url('fonts/icomoon.woff?mqgxqe') format('woff'),
-    url('fonts/icomoon.svg?mqgxqe#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?ndeupv');
+  src:  url('fonts/icomoon.eot?ndeupv#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?ndeupv') format('truetype'),
+    url('fonts/icomoon.woff?ndeupv') format('woff'),
+    url('fonts/icomoon.svg?ndeupv#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -18,25 +18,57 @@
   font-variant: normal;
   text-transform: none;
   line-height: 1;
-  
-  /* Enable Ligatures ================ */
-  letter-spacing: 0;
-  -webkit-font-feature-settings: "liga";
-  -moz-font-feature-settings: "liga=1";
-  -moz-font-feature-settings: "liga";
-  -ms-font-feature-settings: "liga" 1;
-  font-feature-settings: "liga";
-  -webkit-font-variant-ligatures: discretionary-ligatures;
-  font-variant-ligatures: discretionary-ligatures;
 
   /* Better Font Rendering =========== */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-e57d3c4-6220-4f66-ad2c-b048d8500a9a-02:before {
+.icon-assigment:before {
   content: "\e900";
 }
-.icon-e57d3c4-6220-4f66-ad2c-b048d8500a9a-03:before {
+.icon-auction:before {
   content: "\e901";
+}
+.icon-balance:before {
+  content: "\e902";
+}
+.icon-bribery:before {
+  content: "\e903";
+}
+.icon-constitution:before {
+  content: "\e904";
+}
+.icon-contract:before {
+  content: "\e905";
+}
+.icon-convict:before {
+  content: "\e906";
+}
+.icon-copyright:before {
+  content: "\e907";
+}
+.icon-courthouse:before {
+  content: "\e908";
+}
+.icon-gavel:before {
+  content: "\e909";
+}
+.icon-hired:before {
+  content: "\e90a";
+}
+.icon-law-1:before {
+  content: "\e90b";
+}
+.icon-law:before {
+  content: "\e90c";
+}
+.icon-office-block:before {
+  content: "\e90d";
+}
+.icon-outsourcing:before {
+  content: "\e90e";
+}
+.icon-scales:before {
+  content: "\e90f";
 }
