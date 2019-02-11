@@ -27,3 +27,23 @@ function toForm(id){
 }
 
 
+
+ $( document ).ready(function() {
+   
+    changePattern();
+     $(window).resize(function(){
+        changePattern();
+      });
+
+ });
+
+ function changePattern(){
+    let w = window.innerWidth;
+    if(w < 440){
+        $(".pattern").attr("data", "Images/pattern-mobile.svg") ;
+        $("#contact-us-background").attr("data", "Images/contactus-mobile.svg")
+    }else{
+       $(".pattern").attr("data", "Images/pattern.svg") ;
+       $("#contact-us-background").attr("data", "Images/contactus.svg")
+    }
+ }
