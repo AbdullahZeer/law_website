@@ -3,6 +3,106 @@
     font-family: JF-Flat;
     src: url("/style/fonts/JF Flat Regular.otf");
   }
+
+  @font-face {
+    font-family: 'law-icons';
+    src:  url('/style/fonts/law-icons.eot?r5epe1');
+    src:  url('/style/fonts/law-icons.eot?r5epe1#iefix') format('embedded-opentype'),
+      url('/style/fonts/law-icons.ttf?r5epe1') format('truetype'),
+      url('/style/fonts/law-icons.woff?r5epe1') format('woff'),
+      url('/style/fonts/law-icons.svg?r5epe1#law-icons') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+
+  
+[class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'law-icons' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+  
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .icon-chevron-down:before {
+    content: "\e900";
+  }
+  .icon-office-block:before {
+    content: "\e901";
+  }
+  .icon-assigment:before {
+    content: "\e902";
+  }
+  .icon-auction:before {
+    content: "\e903";
+  }
+  .icon-balance:before {
+    content: "\e904";
+  }
+  .icon-bribery:before {
+    content: "\e905";
+  }
+  .icon-constitution:before {
+    content: "\e906";
+  }
+  .icon-contract:before {
+    content: "\e907";
+  }
+  .icon-convict:before {
+    content: "\e908";
+  }
+  .icon-copyright:before {
+    content: "\e909";
+  }
+  .icon-courthouse:before {
+    content: "\e90a";
+  }
+  .icon-gavel:before {
+    content: "\e90b";
+  }
+  .icon-hired:before {
+    content: "\e90c";
+  }
+  .icon-law-1:before {
+    content: "\e90d";
+  }
+  .icon-law:before {
+    content: "\e90e";
+  }
+  .icon-outsourcing:before {
+    content: "\e90f";
+  }
+  .icon-scales:before {
+    content: "\e910";
+  }
+  .icon-instagram:before {
+    content: "\e911";
+  }
+  .icon-phone:before {
+    content: "\e942";
+  }
+  .icon-facebook2:before {
+    content: "\ea91";
+  }
+  .icon-whatsapp:before {
+    content: "\ea93";
+  }
+  .icon-twitter:before {
+    content: "\ea96";
+  }
+  .icon-linkedin:before {
+    content: "\eac9";
+  }
+
+  
   html{
       overflow-x: hidden;
   }
@@ -363,7 +463,7 @@ text-shadow: 0px 3px 9px #040736
     margin-bottom: 80px;
     margin-left: auto;
     margin-right: auto;
-    min-height: 25vh;
+    height: 25vh;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
     will-change: auto;
   }
@@ -485,10 +585,33 @@ text-shadow: 0px 3px 9px #040736
             width: 98%;
         }
 
+        .card{
+            height: 35vh;
+        }
         .card-title{
-            font-size: 0.8em;
+            font-size: 8px;
         }
         .card-text{
-            font-size: 0.8em;
+            font-size: 14px;
+        }
+
+        .card-form{
+            width: 95%;
+        }
+
+        .PaperVictor{
+            position: absolute;
+            opacity: 0.3;
+           margin-left: 80px;
+        }
+        .reflect{
+            position: absolute;
+            opacity: 0.3;
+           right: 100px;
+        }
+       
+        .pattern{
+            width: 100%;
+            height:100vh ;
         }
   }
