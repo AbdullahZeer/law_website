@@ -350,14 +350,14 @@ text-shadow: 0px 3px 9px #040736
     margin-bottom: 1em;
 }
 
-.strike-short > span {
+.strike-short > div {
     position: relative;
     display: inline-block;
-    font-size: 2em;
+    font-size: 4em;
 }
 
-.strike-short > span:before,
-.strike-short > span:after {
+.strike-short > div:before,
+.strike-short > div:after {
     content: "";
     position: absolute;
     top: 65%;
@@ -366,15 +366,16 @@ text-shadow: 0px 3px 9px #040736
     background:  rgb(2,1,38);;
 }
 
-.strike-short > span:before {
+.strike-short > div:before {
     right: 100%;
     margin-right: 15px;
 }
 
-.strike-short > span:after {
+.strike-short > div:after {
     left: 100%;
     margin-left: 15px;
 }
+
 
 .service-block{
     display:block;
@@ -556,6 +557,7 @@ text-shadow: 0px 3px 9px #040736
         flex-direction: column;
         justify-content: left;
         align-content: flex-end;
+        
         margin-top: 0.2em;
     }
 
