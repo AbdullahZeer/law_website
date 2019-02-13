@@ -29,6 +29,8 @@ function toForm(id){
 
 
  $( document ).ready(function() {
+
+    
    
     changePattern();
      $(window).resize(function(){

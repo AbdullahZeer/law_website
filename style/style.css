@@ -4,103 +4,7 @@
     src: url("/style/fonts/JF Flat Regular.otf");
   }
 
-  @font-face {
-    font-family: 'law-icons';
-    src:  url('/style/fonts/law-icons.eot?r5epe1');
-    src:  url('/style/fonts/law-icons.eot?r5epe1#iefix') format('embedded-opentype'),
-      url('/style/fonts/law-icons.ttf?r5epe1') format('truetype'),
-      url('/style/fonts/law-icons.woff?r5epe1') format('woff'),
-      url('/style/fonts/law-icons.svg?r5epe1#law-icons') format('svg');
-    font-weight: normal;
-    font-style: normal;
-  }
 
-
-  
-[class^="icon-"], [class*=" icon-"] {
-    /* use !important to prevent issues with browser extensions that change fonts */
-    font-family: 'law-icons' !important;
-    speak: none;
-    font-style: normal;
-    font-weight: normal;
-    font-variant: normal;
-    text-transform: none;
-    line-height: 1;
-  
-    /* Better Font Rendering =========== */
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-  }
-  
-  .icon-chevron-down:before {
-    content: "\e900";
-  }
-  .icon-office-block:before {
-    content: "\e901";
-  }
-  .icon-assigment:before {
-    content: "\e902";
-  }
-  .icon-auction:before {
-    content: "\e903";
-  }
-  .icon-balance:before {
-    content: "\e904";
-  }
-  .icon-bribery:before {
-    content: "\e905";
-  }
-  .icon-constitution:before {
-    content: "\e906";
-  }
-  .icon-contract:before {
-    content: "\e907";
-  }
-  .icon-convict:before {
-    content: "\e908";
-  }
-  .icon-copyright:before {
-    content: "\e909";
-  }
-  .icon-courthouse:before {
-    content: "\e90a";
-  }
-  .icon-gavel:before {
-    content: "\e90b";
-  }
-  .icon-hired:before {
-    content: "\e90c";
-  }
-  .icon-law-1:before {
-    content: "\e90d";
-  }
-  .icon-law:before {
-    content: "\e90e";
-  }
-  .icon-outsourcing:before {
-    content: "\e90f";
-  }
-  .icon-scales:before {
-    content: "\e910";
-  }
-  .icon-instagram:before {
-    content: "\e911";
-  }
-  .icon-phone:before {
-    content: "\e942";
-  }
-  .icon-facebook2:before {
-    content: "\ea91";
-  }
-  .icon-whatsapp:before {
-    content: "\ea93";
-  }
-  .icon-twitter:before {
-    content: "\ea96";
-  }
-  .icon-linkedin:before {
-    content: "\eac9";
-  }
 
   
   html{
@@ -354,6 +258,8 @@ text-shadow: 0px 3px 9px #040736
     position: relative;
     display: inline-block;
     font-size: 4em;
+    
+    transition: border  0.2s;
 }
 
 .strike-short > div:before,
@@ -364,6 +270,7 @@ text-shadow: 0px 3px 9px #040736
     width:148px;
     height: 2px;
     background:  rgb(2,1,38);;
+    transition: width 0.4s;
 }
 
 .strike-short > div:before {
@@ -386,6 +293,22 @@ text-shadow: 0px 3px 9px #040736
 
 .service-block:hover{
     background-color: rgb(245,245,245,0.6);
+
+}
+
+.service-block:hover  .strike-short > div:before {
+    
+    width: 900px;
+}
+
+.service-block:hover  .strike-short > div::after {
+    
+    width: 900px;
+}
+
+.service-block:hover .strike-short > div{
+    border-top: #000826 solid;
+    border-bottom: #000826 solid;
 }
 
 .service-descriptions{
@@ -395,6 +318,16 @@ text-shadow: 0px 3px 9px #040736
     width: 40%;
     font-size: 1.4em;
     margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.service-modal{
+    display: block;
+    margin: auto;
+    text-align: justify;
+    width: 95%;
+    font-size: 1.4em;
+    margin-top: 40px;
     margin-bottom: 80px;
 }
 .flexbox{
@@ -489,7 +422,48 @@ text-shadow: 0px 3px 9px #040736
     margin-bottom: 90px;
 }
 
+#Team{
 
+}
+
+.team-card{
+    box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.5);
+    width: 80%;
+    height: auto;
+    padding-bottom: 120px;
+    background:  rgb(2,1,38);
+    border-radius: 0.25rem;
+    margin:auto;
+    color: white;
+}
+
+.team-member-box{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:40px;
+    margin-bottom: 40px;
+}
+.team-member-icon{
+    display: block;
+    margin: auto;
+    width: 64px;
+    height: 64px;
+    background-color: white;
+    
+}
+
+.team-member-name{
+    font-size: 2em;
+    text-align: center;
+    margin-top:10px;
+    margin-bottom: 5px;
+}
+
+.team-member-title{
+    font-size: 1.4em;
+    text-align: center;
+}
 
 #Contactus{
     /* background-image: url("../Images/contactus.svg"); */
@@ -498,8 +472,12 @@ text-shadow: 0px 3px 9px #040736
     background-size: cover;
 
 }
+
+
 .card-form{
   display: block;
+  justify-content: center;
+  flex-wrap: wrap;
   font-size: 1.4em;
   width: 30%;
   text-align: center;
@@ -507,6 +485,10 @@ text-shadow: 0px 3px 9px #040736
     margin-right: auto;
     margin-top: 120px;
     margin-bottom: 60px;
+}
+
+.form-box{
+  
 }
 
   @-webkit-keyframes slideIn {
@@ -592,6 +574,12 @@ text-shadow: 0px 3px 9px #040736
             width: 98%;
         }
 
+        .modal-content {
+            width: 98%;
+        }
+        .service-modal{
+            font-size: 1em;
+        }
         .card{
             height: 35vh;
         }
