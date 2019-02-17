@@ -20,10 +20,92 @@
 #home{
     color: white;
     height: 100vh;
-    background-image: url("/Images/Law-Hero.png") ;
+    /* background-image: url("/Images/Law-Hero.png") ; */
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.underline-link{
+    margin-top:5px;
+}
+.underline-link:hover{
+    text-decoration: none;
+    color: white;
+}
+
+
+.underline-link:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #333;
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.underline-link:hover:before {
+    visibility: visible;
+    background-color: #f2f2f2;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+  }
+@keyframes fadeInSVG {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+#hero-background{
+    position: absolute;
+    z-index: -1;
+    overflow: hidden;
+}
+
+/* .dots{
+    animation: fadeIn 2s infinite ease-in-out;
+} */
+
+#dot0{
+    animation: fadeInSVG 4s infinite ease-in-out;
+}
+
+#dot1{
+    animation: fadeInSVG 3s infinite ease-in-out;
+}
+
+#dot2{
+    animation: fadeInSVG 8s infinite ease-in-out;
+}
+
+#dot3{
+    animation: fadeInSVG 5s infinite ease-in-out;
+}
+
+#dot4{
+    animation: fadeInSVG 3s infinite ease-in-out;
+}
+
+#dot5{
+    animation: fadeInSVG 2s infinite ease-in-out;
+}
+
+#dot6{
+    animation: fadeInSVG 2s infinite ease-in-out;
+}
+
 .logo{
     display: block;
     margin: auto;
@@ -397,7 +479,8 @@ text-shadow: 0px 3px 9px #040736
     margin-bottom: 80px;
     margin-left: auto;
     margin-right: auto;
-    height: 25vh;
+    height: 35vh;
+    padding-bottom: 40px;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
     will-change: auto;
   }
@@ -416,7 +499,7 @@ text-shadow: 0px 3px 9px #040736
     font-size: 1.4em;
     width: 90%;
     text-align: center;
-    margin-top: 40px;
+    margin-top: 20px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 90px;
@@ -491,6 +574,14 @@ text-shadow: 0px 3px 9px #040736
   
 }
 
+
+#contact-us-background{
+    position: absolute;
+    z-index: -1;
+    overflow: hidden;
+    padding-top: 80px;
+}
+
   @-webkit-keyframes slideIn {
     from {bottom: -300px; opacity: 0} 
     to {bottom: 0; opacity: 1}
@@ -509,6 +600,29 @@ text-shadow: 0px 3px 9px #040736
   @keyframes fadeIn {
     from {opacity: 0} 
     to {opacity: 1}
+  }
+
+
+  
+  @media only screen and (max-width: 1024px){
+    .card{
+        width: 100%;
+        height: 25vh;
+    }
+
+    .card-title {
+        margin-top: 20px;
+        font-size: 0.6em;
+    }
+
+    .card-text {
+        font-size: 1em;
+        margin-top: 10px;
+    }
+
+    #contact-us-background{
+        padding-top: 240px;
+    }
   }
 
   @media only screen and (max-width: 440px){
@@ -609,5 +723,9 @@ text-shadow: 0px 3px 9px #040736
             width: 100%;
             
 
+        }
+
+        #contact-us-background{
+            padding-top:20px;
         }
   }

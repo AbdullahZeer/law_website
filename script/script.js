@@ -26,7 +26,9 @@ function toForm(id){
     }
 }
 
-
+function goToLocation(){
+    $(location).attr('href', 'https://goo.gl/maps/tYrkYY8xWay')
+}
 
  $( document ).ready(function() {
 
