@@ -20,7 +20,7 @@
 #home{
     color: white;
     height: 100vh;
-    /* background-image: url("/Images/Law-Hero.png") ; */
+     background-image: url("/Images/Law-Hero.svg") ; 
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -34,7 +34,7 @@
 }
 
 
-.underline-link:before {
+/* .underline-link:before {
   content: "";
   position: absolute;
   width: 100%;
@@ -46,7 +46,7 @@
   -webkit-transform: scaleX(0);
   transform: scaleX(0);
   transition: all 0.3s ease-in-out 0s;
-}
+} */
 
 .underline-link:hover:before {
     visibility: visible;
@@ -574,12 +574,36 @@ text-shadow: 0px 3px 9px #040736
   
 }
 
+.contacts-info{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 37%;
+    border: 2px dotted #040736;
+}
+.contact-element{
+    display: block;
+    text-align:left;
+    color: #040736;
+    font-size: 2em;
+    margin-left:10px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
 
+.contact-us-form{
+    margin-top: 80px;
+}
 #contact-us-background{
     position: absolute;
     z-index: -1;
     overflow: hidden;
-    padding-top: 80px;
+    padding-top: 210px;
+}
+
+.btn-primary{
+    background-color: #040736 !important;
+    border-color: #040736 !important;
 }
 
   @-webkit-keyframes slideIn {
@@ -621,7 +645,26 @@ text-shadow: 0px 3px 9px #040736
     }
 
     #contact-us-background{
-        padding-top: 240px;
+        padding-top: 80vh;
+    }
+
+    .contacts-info{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+        border: 2px dotted #040736;
+    }
+
+    .hide-in-mobile{
+        display: none;
+    }
+    .contact-element{
+        font-size: 1.4em;
+    }
+
+    #home{
+        background-position: -600px 0px; 
     }
   }
 
@@ -632,12 +675,13 @@ text-shadow: 0px 3px 9px #040736
 
       #home{
           height: 100vh;
-          background-image: url("/Images/Law-Hero-mobile.svg")
+          background-image: url("/Images/Law-Hero-mobile.svg");
+          background-position:center;
     }
     
     .logo{
         display: block;
-        margin: 0;
+        margin: auto;
         width: 100px;
     }
     .header{
@@ -724,8 +768,19 @@ text-shadow: 0px 3px 9px #040736
             
 
         }
+        .contacts-info{
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 95%;
+            border: 2px dotted #040736;
+        }
 
         #contact-us-background{
-            padding-top:20px;
+            padding-top:40vh;
+        }
+
+        .contact-element{
+            font-size: 1em;
         }
   }

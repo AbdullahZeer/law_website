@@ -18,15 +18,13 @@
 
 <body>
   <section id="home">
-      <object type="image/svg+xml" id="hero-background" 
-      data="Images/Law-Hero.svg"></object>
     <img class="logo" src="/Images/logo.png" alt="">
     <div class="header">
       <nav class="text-center">
         <a class="underline-link" href="#home">Home</a>
         <a class="underline-link" href="#about">About us</a>
-        <a class="underline-link hide-mobile" href="#team">Partners</a>
         <a class="underline-link" href="#services">Our Services</a>
+        <a class="underline-link" href="#team">Partners</a>
         <a class="underline-link" href="#Contactus">Contact us</a>
       </nav>
     </div>
@@ -52,7 +50,7 @@
             <span data-aos="fade" class="about-sub-title ">Vision</span>
           </div>
           <div class="flexbox">
-            <iframe data-aos="fade" type="image/svg+xml" class="reflect " src="Images/1e57d3c4-6220-4f66-ad2c-b048d8500a9a-02.svg" frameborder="0"></iframe>
+            <iframe data-aos="fade" type="image/svg+xml" class="reflect hide-in-mobile" src="Images/1e57d3c4-6220-4f66-ad2c-b048d8500a9a-02.svg" frameborder="0"></iframe>
             <div data-aos="fade" class="about-descriptions ">
               Our primary vision is to be an elite firm that is a leader in providing clients, from
               businessmen and businesswomem, corporations, as well as governmental
@@ -74,7 +72,7 @@
               business, civil and criminal cases. This firm is committed to delivering efficient and
               cost-effective legal services.
             </div>
-            <iframe type="image/svg+xml" data-aos="fade" class="PaperVictor" src="Images/1e57d3c4-6220-4f66-ad2c-b048d8500a9a-02.svg" frameborder="0"></iframe>
+            <iframe type="image/svg+xml" data-aos="fade" class="PaperVictor hide-in-mobile" src="Images/1e57d3c4-6220-4f66-ad2c-b048d8500a9a-02.svg" frameborder="0"></iframe>
           </div>
         </div>
         <div class="col-md-12">
@@ -82,7 +80,7 @@
             <span data-aos="fade" class="about-sub-title ">Objectives</span>
           </div>
           <div class="flexbox">
-            <iframe type="image/svg+xml" data-aos="fade" class="reflect " src="Images/1e57d3c4-6220-4f66-ad2c-b048d8500a9a-02.svg" frameborder="0"></iframe>
+            <iframe type="image/svg+xml" data-aos="fade" class="reflect hide-in-mobile" src="Images/1e57d3c4-6220-4f66-ad2c-b048d8500a9a-02.svg" frameborder="0"></iframe>
             <div data-aos="fade" class="about-descriptions">
               <ul data-aos="fade" class="Objectives-list">
                 <li>Respect our clients and their objectives, while striving to provide the highest quality service.</li>
@@ -91,7 +89,7 @@
                   changes and the different, changing laws all around the world.</li>
               </ul>
             </div>
-            <iframe type="image/svg+xml" data-aos="fade" class="PaperVictor " src="Images/1e57d3c4-6220-4f66-ad2c-b048d8500a9a-02.svg" frameborder="0"></iframe>
+            <iframe type="image/svg+xml" data-aos="fade" class="PaperVictor hide-in-mobile" src="Images/1e57d3c4-6220-4f66-ad2c-b048d8500a9a-02.svg" frameborder="0"></iframe>
           </div>
         </div>
       </div>
@@ -119,13 +117,33 @@
           </div>
 
           <div class="col-md-3">
+            <div data-aos="zoom-in-up" id="Arbitration" class="service-block " onclick="showByID(this.id)">
+              <div class="strike-short">
+
+                <div> <span class="icon-gavel"></span></div>
+              </div>
+              <p class="services-sub-title">Arbitration</p>
+            </div>
+          </div>
+
+          <div class="col-md-3">
+            <div data-aos="zoom-in-up" id="intellectual-property" class="service-block " onclick="showByID(this.id)">
+              <div class="strike-short">
+
+                <div> <span class="icon-copyright"></span></div>
+              </div>
+              <p class="services-sub-title">intellectual property </p>
+            </div>
+          </div>
+
+          <div class="col-md-3">
             <div data-aos="zoom-in-up" id="Corporate-liquidation" class="service-block " onclick="showByID(this.id)">
               <div class="strike-short">
 
                 <div> <span class="icon-outsourcing"></span></div>
               </div>
 
-              <p class="services-sub-title ">Corporate liquidation</p>
+              <p class="services-sub-title ">Commercial Law</p>
             </div>
 
           </div>
@@ -218,17 +236,9 @@
 
 
           </div>
-          <div class="col-md-3">
-            <div data-aos="zoom-in-up" id="Arbitration" class="service-block " onclick="showByID(this.id)">
-              <div class="strike-short">
 
-                <div> <span class="icon-gavel"></span></div>
-              </div>
-              <p class="services-sub-title">Arbitration</p>
-            </div>
-
-
-          </div>
+          
+         
           <div class="col-md-3">
             <div data-aos="zoom-in-up" id="Incorporation-of-Company" class="service-block " onclick="showByID(this.id)">
               <div class="strike-short">
@@ -295,10 +305,10 @@
               <div class="col-md-12">
                 <div class="strike-short">
 
-                  <div> <span class="icon-law"></span></div>
+                  <div> <span class="icon-outsourcing"></span></div>
                 </div>
 
-                <p class="services-sub-title">Corporate liquidation</p>
+                <p class="services-sub-title">Commercial Law</p>
               </div>
 
               <div class="col-md-12">
@@ -360,7 +370,7 @@
               <div class="col-md-12">
                 <div class="strike-short">
 
-                  <div> <span class="icon-law"></span></div>
+                  <div> <span class="icon-auction"></span></div>
                 </div>
 
                 <p class="services-sub-title">Endowments</p>
@@ -386,7 +396,7 @@
             <div class="row justify-content-md-center">
               <div class="col-md-12">
                 <div class="strike-short">
-                  <div> <span class="icon-law"></span></div>
+                  <div> <span class="icon-courthouse"></span></div>
                 </div>
                 <p class="services-sub-title">Pleadings</p>
               </div>
@@ -408,7 +418,7 @@
             <div class="row justify-content-md-center">
               <div class="col-md-12">
                 <div class="strike-short">
-                  <div> <span class="icon-law"></span></div>
+                  <div> <span class="icon-convict"></span></div>
                   <p class="services-sub-title">Criminal litigations</p>
                 </div>
                 <div class="col-md-12">
@@ -434,7 +444,7 @@
               <div class="row justify-content-md-center">
                 <div class="col-md-12">
                   <div class="strike-short">
-                    <div> <span class="icon-law"></span></div>
+                    <div> <span class="icon-constitution"></span></div>
                   </div>
                   <p class="services-sub-title">Inheritance and commandment</p>
                 </div>
@@ -461,7 +471,7 @@
               <div class="row justify-content-md-center">
                 <div class="col-md-12">
                   <div class="strike-short">
-                    <div> <span class="icon-law"></span></div>
+                    <div> <span class="icon-assigment"></span></div>
                   </div>
                   <p class="services-sub-title">Legal Counsel</p>
                 </div>
@@ -481,7 +491,7 @@
               <div class="row justify-content-md-center">
                 <div class="col-md-12">
                   <div class="strike-short">
-                    <div> <span class="icon-law"></span></div>
+                    <div> <span class="icon-hired"></span></div>
                   </div>
                   <p class="services-sub-title">Human Recourses</p>
                 </div>
@@ -503,7 +513,7 @@
               <div class="row justify-content-md-center">
                 <div class="col-md-12">
                   <div class="strike-short">
-                    <div> <span class="icon-law"></span></div>
+                    <div> <span class="icon-contract"></span></div>
                   </div>
                   <p class="services-sub-title">Drafting contracts</p>
                 </div>
@@ -516,23 +526,46 @@
               </div>
             </div>
           </div>
+      
+          </div>
           <div id="Arbitration-des" class="modal animated">
             <div id="out-of-modal" onclick="hideModal()">
             </div>
             <div class="modal-content">
-              <div class="row justify-content-md-center" <div class="col-md-12">
-                  <div class="col-md-12">
-                      <div class="strike-short">
-                        <div> <span class="icon-law"></span></div>
-                      </div>
-                      <p class="services-sub-title">Arbitration</p>
-                    </div>
-              <div class="col-md-12">
-                <div class="service-modal">
-                  Our group offers the arbitration service where we have certified arbitrators and we arbitrate
-                  between the opponents since we have a crew of certified arbitrators and thus shorten the
-                  client time and effort because the arbitration have easier procedure than filing lawsuit before
-                  courts of first instance.
+              <div class="row justify-content-md-center">
+                <div class="col-md-12">
+                  <div class="strike-short">
+                    <div> <span class="icon-gavel"></span></div>
+                  </div>
+                  <p class="services-sub-title">Arbitration</p>
+                </div>
+                <div class="col-md-12">
+                  <div class="service-modal">
+                    Our group offers the arbitration service where we have certified arbitrators and we arbitrate
+                    between the opponents since we have a crew of certified arbitrators and thus shorten the
+                    client time and effort because the arbitration have easier procedure than filing lawsuit before
+                    courts of first instance.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div id="intellectual-property-des" class="modal animated">
+            <div id="out-of-modal" onclick="hideModal()">
+            </div>
+            <div class="modal-content">
+              <div class="row justify-content-md-center">
+                <div class="col-md-12">
+                  <div class="strike-short">
+                    <div> <span class="icon-copyright"></span></div>
+                  </div>
+                  <p class="services-sub-title">intellectual property</p>
+                </div>
+                <div class="col-md-12">
+                  <div class="service-modal">
+                    تقدم مجموعة المحامي علي الملحم جميع الخدمات القانونية اللازمة من أجل حماية حقوق الملكية الفكرية بجميع أنواعها من الاعتداءات والتجاوزات ، ويشمل ذلك الحماية المدنية والجزائية.
+                  </div>
                 </div>
               </div>
             </div>
@@ -545,7 +578,7 @@
             <div class="row justify-content-md-center">
               <div class="col-md-12">
                 <div class="strike-short">
-                  <div> <span class="icon-law"></span></div>
+                  <div> <span class="icon-outsourcing"></span></div>
                 </div>
                 <p class="services-sub-title">Incorporation of Company</p>
               </div>
@@ -567,7 +600,7 @@
             <div class="row justify-content-md-center">
               <div class="col-md-12">
                 <div class="strike-short">
-                  <div> <span class="icon-law"></span></div>
+                  <div> <span class="icon-bribery"></span></div>
                 </div>
                 <p class="services-sub-title">collecting debt</p>
               </div>
@@ -687,7 +720,7 @@
 
                   <div class="form-group">
                       <label for="exampleInputEmail1">type</label>
-                      <select class="custom-select mr-sm-2" id="Partners-form-select">
+                      <select style="height:50px;" class="custom-select mr-sm-2" id="Partners-form-select">
                         <option selected>Choose...</option>
                         <option value="1">الوسطاء</option>
                         <option value="2">المدراء التنفيذيين</option>
@@ -723,7 +756,7 @@
               <div class="form-group">
                   <label for="exampleInputEmail1">Mobile number</label>
                   <input type="number" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
-                    placeholder="Enter Years of Experience">
+                    placeholder="Enter Mobile number">
                 </div>
                 <div class="form-group">
                   <label for="exampleInputEmail1">CV</label>
@@ -737,7 +770,7 @@
             
             <div class="col-md-12 ">
               <div class="form-group">
-                <label for="exampleFormControlTextarea1">Example textarea</label>
+                <label for="exampleFormControlTextarea1">Massage</label>
                 <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
               </div>
               <button type="submit" value="Send" class="btn btn-primary">Submit</button>
@@ -910,18 +943,26 @@
   </section>
   <section id="Contactus">
     <div class="container-fluid">
-      <div class="row">
+      <div class="row justify-content-md-center">
         <div class="col-md-12 section-titles">Contact us</div>
+        <div class="col-md-12">
+          <div class="contacts-info">
+            <div class="contact-element">(icon)Telephone: 920025259</div>
+            <div class="contact-element">(icon)Mobile: Riyadh 0534344949 - Qassim 0539225259</div>
+            <div class="contact-element">(icon)Email: almolhemgroup@gmail.com </div>
+            <div class="contact-element">(icon)Twitter: @almolhem_lawyer </div>
+          </div>
+        </div>
           <object id="contact-us-background" 
             data="Images/contactus.svg"></object>
-        <form class=" mx-auto strike  col-md-6" method="POST" action="https://formspree.io/almolhemgroup@gmail.com">
+        <form class=" contact-us-form mx-auto strike  col-md-6" method="POST" action="https://formspree.io/almolhemgroup@gmail.com">
           <div class="mx-auto form-group  col-md-9 ">
             <label for="exampleInputEmail1">Email address</label>
             <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
             <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
           </div>
           <div class="form-group col-md-12">
-            <label for="exampleFormControlTextarea1">Example textarea</label>
+            <label for="exampleFormControlTextarea1">Massage</label>
             <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
           </div>
           <button type="submit" class="btn btn-primary">Submit</button>

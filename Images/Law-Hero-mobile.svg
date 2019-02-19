@@ -10,6 +10,50 @@
 	.st4{fill:url(#SVGID_5_);}
 	.st5{fill:url(#SVGID_6_);}
 	.st6{fill:url(#SVGID_7_);}
+
+		@keyframes fadeInSVG {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+
+#dot0{
+    animation: fadeInSVG 4s infinite ease-in-out;
+}
+
+#dot1{
+    animation: fadeInSVG 3s infinite ease-in-out;
+}
+
+#dot2{
+    animation: fadeInSVG 8s infinite ease-in-out;
+}
+
+#dot3{
+    animation: fadeInSVG 5s infinite ease-in-out;
+}
+
+#dot4{
+    animation: fadeInSVG 3s infinite ease-in-out;
+}
+
+#dot5{
+    animation: fadeInSVG 2s infinite ease-in-out;
+}
+
+#dot6{
+    animation: fadeInSVG 2s infinite ease-in-out;
+}
+
 </style>
 <g>
 	<defs>
@@ -5938,7 +5982,7 @@ c6/DAAAAAElFTkSuQmCC" transform="matrix(0.7954 0 0 0.7954 -522.5555 0)">
 		</image>
 	</g>
 </g>
-<g class="st0">
+<g id="dot0" class="st0">
 	<radialGradient id="SVGID_3_" cx="355.7223" cy="717.747" r="18.2339" gradientUnits="userSpaceOnUse">
 		<stop  offset="0" style="stop-color:#F7FFF2"/>
 		<stop  offset="0.855" style="stop-color:#FFFFFF;stop-opacity:0"/>
@@ -5946,7 +5990,7 @@ c6/DAAAAAElFTkSuQmCC" transform="matrix(0.7954 0 0 0.7954 -522.5555 0)">
 	<circle class="st1" cx="355.7" cy="717.7" r="18.2"/>
 	<circle class="st2" cx="355.7" cy="717.7" r="7.9"/>
 </g>
-<g class="st0">
+<g id="dot1" class="st0">
 	<radialGradient id="SVGID_4_" cx="251.8296" cy="736.0771" r="18.2339" gradientUnits="userSpaceOnUse">
 		<stop  offset="0" style="stop-color:#F7FFF2"/>
 		<stop  offset="0.855" style="stop-color:#FFFFFF;stop-opacity:0"/>
@@ -5954,7 +5998,7 @@ c6/DAAAAAElFTkSuQmCC" transform="matrix(0.7954 0 0 0.7954 -522.5555 0)">
 	<circle class="st3" cx="251.8" cy="736.1" r="18.2"/>
 	<circle class="st2" cx="251.8" cy="736.1" r="7.9"/>
 </g>
-<g class="st0">
+<g id="dot2" class="st0">
 	<radialGradient id="SVGID_5_" cx="71.8296" cy="784.0771" r="18.2339" gradientUnits="userSpaceOnUse">
 		<stop  offset="0" style="stop-color:#F7FFF2"/>
 		<stop  offset="0.855" style="stop-color:#FFFFFF;stop-opacity:0"/>
@@ -5962,7 +6006,7 @@ c6/DAAAAAElFTkSuQmCC" transform="matrix(0.7954 0 0 0.7954 -522.5555 0)">
 	<circle class="st4" cx="71.8" cy="784.1" r="18.2"/>
 	<circle class="st2" cx="71.8" cy="784.1" r="7.9"/>
 </g>
-<g class="st0">
+<g id="dot3" class="st0">
 	<radialGradient id="SVGID_6_" cx="53.5776" cy="681.8564" r="18.2339" gradientUnits="userSpaceOnUse">
 		<stop  offset="0" style="stop-color:#F7FFF2"/>
 		<stop  offset="0.855" style="stop-color:#FFFFFF;stop-opacity:0"/>
@@ -5970,7 +6014,7 @@ c6/DAAAAAElFTkSuQmCC" transform="matrix(0.7954 0 0 0.7954 -522.5555 0)">
 	<circle class="st5" cx="53.6" cy="681.9" r="18.2"/>
 	<circle class="st2" cx="53.6" cy="681.9" r="7.9"/>
 </g>
-<g class="st0">
+<g id="dot3" class="st0">
 	
 		<radialGradient id="SVGID_7_" cx="309.0378" cy="686.8268" r="18.2339" gradientTransform="matrix(0.8942 0.4477 -0.3212 0.6417 264.497 -22.807)" gradientUnits="userSpaceOnUse">
 		<stop  offset="0" style="stop-color:#F7FFF2"/>
