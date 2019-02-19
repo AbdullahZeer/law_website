@@ -18,15 +18,13 @@
 
 <body>
   <section id="home">
-      <object type="image/svg+xml" id="hero-background" 
-      data="Images/Law-Hero.svg"></object>
     <img class="logo" src="/Images/logo.png" alt="">
     <div class="header">
       <nav class="text-center">
         <a class="underline-link" href="#home">Home</a>
         <a class="underline-link" href="#about">About us</a>
-        <a class="underline-link hide-mobile" href="#team">Partners</a>
         <a class="underline-link" href="#services">Our Services</a>
+        <a class="underline-link" href="#team">Partners</a>
         <a class="underline-link" href="#Contactus">Contact us</a>
       </nav>
     </div>
@@ -123,13 +121,33 @@
           </div>
 
           <div class="col-md-3">
+            <div data-aos="zoom-in-up" id="Arbitration" class="service-block " onclick="showByID(this.id)">
+              <div class="strike-short">
+
+                <div> <span class="icon-gavel"></span></div>
+              </div>
+              <p class="services-sub-title">Arbitration</p>
+            </div>
+          </div>
+
+          <div class="col-md-3">
+            <div data-aos="zoom-in-up" id="intellectual-property" class="service-block " onclick="showByID(this.id)">
+              <div class="strike-short">
+
+                <div> <span class="icon-copyright"></span></div>
+              </div>
+              <p class="services-sub-title">intellectual property </p>
+            </div>
+          </div>
+
+          <div class="col-md-3">
             <div data-aos="zoom-in-up" id="Corporate-liquidation" class="service-block " onclick="showByID(this.id)">
               <div class="strike-short">
 
                 <div> <span class="icon-outsourcing"></span></div>
               </div>
 
-              <p class="services-sub-title ">Corporate liquidation</p>
+              <p class="services-sub-title ">Commercial Law</p>
             </div>
 
           </div>
@@ -222,17 +240,9 @@
 
 
           </div>
-          <div class="col-md-3">
-            <div data-aos="zoom-in-up" id="Arbitration" class="service-block " onclick="showByID(this.id)">
-              <div class="strike-short">
 
-                <div> <span class="icon-gavel"></span></div>
-              </div>
-              <p class="services-sub-title">Arbitration</p>
-            </div>
-
-
-          </div>
+          
+         
           <div class="col-md-3">
             <div data-aos="zoom-in-up" id="Incorporation-of-Company" class="service-block " onclick="showByID(this.id)">
               <div class="strike-short">
@@ -299,10 +309,10 @@
               <div class="col-md-12">
                 <div class="strike-short">
 
-                  <div> <span class="icon-law"></span></div>
+                  <div> <span class="icon-outsourcing"></span></div>
                 </div>
 
-                <p class="services-sub-title">Corporate liquidation</p>
+                <p class="services-sub-title">Commercial Law</p>
               </div>
 
               <div class="col-md-12">
@@ -364,7 +374,7 @@
               <div class="col-md-12">
                 <div class="strike-short">
 
-                  <div> <span class="icon-law"></span></div>
+                  <div> <span class="icon-auction"></span></div>
                 </div>
 
                 <p class="services-sub-title">Endowments</p>
@@ -390,7 +400,7 @@
             <div class="row justify-content-md-center">
               <div class="col-md-12">
                 <div class="strike-short">
-                  <div> <span class="icon-law"></span></div>
+                  <div> <span class="icon-courthouse"></span></div>
                 </div>
                 <p class="services-sub-title">Pleadings</p>
               </div>
@@ -412,7 +422,7 @@
             <div class="row justify-content-md-center">
               <div class="col-md-12">
                 <div class="strike-short">
-                  <div> <span class="icon-law"></span></div>
+                  <div> <span class="icon-convict"></span></div>
                   <p class="services-sub-title">Criminal litigations</p>
                 </div>
                 <div class="col-md-12">
@@ -438,7 +448,7 @@
               <div class="row justify-content-md-center">
                 <div class="col-md-12">
                   <div class="strike-short">
-                    <div> <span class="icon-law"></span></div>
+                    <div> <span class="icon-constitution"></span></div>
                   </div>
                   <p class="services-sub-title">Inheritance and commandment</p>
                 </div>
@@ -465,7 +475,7 @@
               <div class="row justify-content-md-center">
                 <div class="col-md-12">
                   <div class="strike-short">
-                    <div> <span class="icon-law"></span></div>
+                    <div> <span class="icon-assigment"></span></div>
                   </div>
                   <p class="services-sub-title">Legal Counsel</p>
                 </div>
@@ -485,7 +495,7 @@
               <div class="row justify-content-md-center">
                 <div class="col-md-12">
                   <div class="strike-short">
-                    <div> <span class="icon-law"></span></div>
+                    <div> <span class="icon-hired"></span></div>
                   </div>
                   <p class="services-sub-title">Human Recourses</p>
                 </div>
@@ -507,7 +517,7 @@
               <div class="row justify-content-md-center">
                 <div class="col-md-12">
                   <div class="strike-short">
-                    <div> <span class="icon-law"></span></div>
+                    <div> <span class="icon-contract"></span></div>
                   </div>
                   <p class="services-sub-title">Drafting contracts</p>
                 </div>
@@ -519,6 +529,8 @@
                 </div>
               </div>
             </div>
+          </div>
+      
           </div>
           <div id="Arbitration-des" class="modal animated">
             <div id="out-of-modal" onclick="hideModal()">
@@ -549,7 +561,7 @@
             <div class="row justify-content-md-center">
               <div class="col-md-12">
                 <div class="strike-short">
-                  <div> <span class="icon-law"></span></div>
+                  <div> <span class="icon-outsourcing"></span></div>
                 </div>
                 <p class="services-sub-title">Incorporation of Company</p>
               </div>
@@ -571,7 +583,7 @@
             <div class="row justify-content-md-center">
               <div class="col-md-12">
                 <div class="strike-short">
-                  <div> <span class="icon-law"></span></div>
+                  <div> <span class="icon-bribery"></span></div>
                 </div>
                 <p class="services-sub-title">collecting debt</p>
               </div>
@@ -689,7 +701,7 @@
                 <input class="form-control" aria-label="Sizing example input" type="email" name="email" placeholder="Enter email">
                   <div class="form-group">
                       <label for="exampleInputEmail1">type</label>
-                      <select name="type" class="custom-select mr-sm-2" id="Partners-form-select">
+                      <select style="height:50px;" name="type" class="custom-select mr-sm-2" id="Partners-form-select">
                         <option selected>Choose...</option>
                         <option value="الوسطاء">الوسطاء</option>
                         <option value="المدراء التنفيذيين">المدراء التنفيذيين</option>
@@ -719,7 +731,7 @@
               <div class="form-group">
                   <label for="exampleInputEmail1">Mobile number</label>
                   <input name="phone number" type="number" class="form-control"  
-                    placeholder="Enter Years of Experience">
+                    placeholder="Enter Mobile number">
                 </div>
                 <div class="form-group">
                   <label for="exampleInputEmail1">CV</label>
@@ -900,16 +912,25 @@
   </section>
   <section id="Contactus">
     <div class="container-fluid">
-      <div class="row">
+      <div class="row justify-content-md-center">
         <div class="col-md-12 section-titles">Contact us</div>
-          <object id="contact-us-background" data="Images/contactus.svg"></object>
-        <form class="email-form mx-auto strike  col-md-6" method="POST" action="https://formspree.io/almolhemgroup@gmail.com">
-          <div class="form-group mx-auto col-md-9">
-            <input class="form-control" aria-label="Sizing example input" type="email" name="email" placeholder="Enter email">
-            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+        <div class="col-md-12">
+          <div class="contacts-info">
+            <div class="contact-element">(icon)Telephone: 920025259</div>
+            <div class="contact-element">(icon)Mobile: Riyadh 0534344949 - Qassim 0539225259</div>
+            <div class="contact-element">(icon)Email: almolhemgroup@gmail.com </div>
+            <div class="contact-element">(icon)Twitter: @almolhem_lawyer </div>
           </div>
-          <div class="form-group">
-            <textarea class="form-control" aria-label="Sizing example input" name="message" placeholder="Your message"></textarea>
+        </div>
+          <object id="contact-us-background" 
+            data="Images/contactus.svg"></object>
+            <form class="email-form mx-auto strike  col-md-6" method="POST" action="https://formspree.io/almolhemgroup@gmail.com">
+              <div class="form-group mx-auto col-md-9">
+                <input class="form-control" aria-label="Sizing example input" type="email" name="email" placeholder="Enter email">
+                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+              </div>
+              <div class="form-group">
+                <textarea class="form-control" aria-label="Sizing example input" name="message" placeholder="Your message"></textarea>
           </div>
           <button id="MessageSend" class="btn btn-primary" type="submit">Send</button>
         </form>
