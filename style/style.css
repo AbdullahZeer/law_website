@@ -131,11 +131,13 @@ nav{
 -o-transform: scale(-1, 1) !important;
 -ms-transform: scale(-1, 1) !important;
 transform: scale(-1, 1) !important;
-font-size: 15rem; 
+/* font-size: 15rem;  */
+width: 15em;
 margin: auto -13% auto auto;
 }
 .PaperVictor{
-    font-size: 15rem; 
+    /* font-size: 15rem;  */
+    width: 15em;
     margin: auto auto auto -13%;
 }
 .exrtaMargin{
