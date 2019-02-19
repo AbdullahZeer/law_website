@@ -682,74 +682,59 @@
             <div class="col-md-12 form-box">
               <div class="form-group">
                 <label for="exampleInputEmail1">Name</label>
-                <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
-                  placeholder="Enter Name">
+                <input type="text" name="name" class="form-control"    placeholder="Enter Name">
               </div>
               <div class="form-group">
                 <label for="exampleInputEmail1">Email address</label>
-                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
-                  placeholder="Enter email">
-
+                <input class="form-control" aria-label="Sizing example input" type="email" name="email" placeholder="Enter email">
                   <div class="form-group">
                       <label for="exampleInputEmail1">type</label>
-                      <select class="custom-select mr-sm-2" id="Partners-form-select">
+                      <select name="type" class="custom-select mr-sm-2" id="Partners-form-select">
                         <option selected>Choose...</option>
-                        <option value="1">الوسطاء</option>
-                        <option value="2">المدراء التنفيذيين</option>
-                        <option value="3">القانونيين الطلاب</option>
-                        <option value="4">المحامين المتدربين</option>
-                        <option value="5">المحامين و المستشارين القانونين</option>
+                        <option value="الوسطاء">الوسطاء</option>
+                        <option value="المدراء التنفيذيين">المدراء التنفيذيين</option>
+                        <option value="القانونيين الطلاب">القانونيين الطلاب</option>
+                        <option value="المحامين المتدربين">المحامين المتدربين</option>
+                        <option value="المحامين و المستشارين القانونين">المحامين و المستشارين القانونين</option>
                       </select>
                     </div>
-      
                     <div class="form-group">
-                      <label for="exampleInputEmail1">Employer</label>
-                      <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
-                        placeholder="Enter Employer">
+                      <label>Employer</label>
+                      <input name="Employer"  type="text" class="form-control"    placeholder="Enter Employer">
                     </div>
               </div>
             </div>
-
-            
-
-
             <div class="col-md-12 form-box">
 
               <div class="form-group">
                 <label for="exampleInputEmail1">Job title</label>
-                <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                <input name="Job title" type="text" class="form-control"  
                   placeholder="Enter Job title">
               </div>
               <div class="form-group">
                 <label for="exampleInputEmail1">Years of Experience</label>
-                <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                <input name="years of experience" type="text" class="form-control"
                   placeholder="Enter Years of Experience">
               </div>
               <div class="form-group">
                   <label for="exampleInputEmail1">Mobile number</label>
-                  <input type="number" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                  <input name="phone number" type="number" class="form-control"  
                     placeholder="Enter Years of Experience">
                 </div>
                 <div class="form-group">
                   <label for="exampleInputEmail1">CV</label>
-                  <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                  <input name="CV Link" type="text" class="form-control"  
                     placeholder="Enter CV link">
                 </div>
             </div>
-
-
-
-            
             <div class="col-md-12 ">
               <div class="form-group">
-                <label for="exampleFormControlTextarea1">Example textarea</label>
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                <label for="exampleFormControlTextarea1">Message</label>
+                <textarea name="message" class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
               </div>
               <button type="submit" value="Send" class="btn btn-primary">Submit</button>
             </div>
           </div>
-
-
         </form>
       </div>
 
@@ -917,19 +902,16 @@
     <div class="container-fluid">
       <div class="row">
         <div class="col-md-12 section-titles">Contact us</div>
-          <object id="contact-us-background" 
-            data="Images/contactus.svg"></object>
-        <form class=" mx-auto strike  col-md-6" method="POST" action="https://formspree.io/almolhemgroup@gmail.com">
-          <div class="mx-auto form-group  col-md-9 ">
-            <label for="exampleInputEmail1">Email address</label>
-            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+          <object id="contact-us-background" data="Images/contactus.svg"></object>
+        <form class="email-form mx-auto strike  col-md-6" method="POST" action="https://formspree.io/almolhemgroup@gmail.com">
+          <div class="form-group mx-auto col-md-9">
+            <input class="form-control" aria-label="Sizing example input" type="email" name="email" placeholder="Enter email">
             <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
           </div>
-          <div class="form-group col-md-12">
-            <label for="exampleFormControlTextarea1">Example textarea</label>
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+          <div class="form-group">
+            <textarea class="form-control" aria-label="Sizing example input" name="message" placeholder="Your message"></textarea>
           </div>
-          <button type="submit" class="btn btn-primary">Submit</button>
+          <button id="MessageSend" class="btn btn-primary" type="submit">Send</button>
         </form>
       </div>
       <div>
