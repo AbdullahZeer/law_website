@@ -600,7 +600,7 @@ text-shadow: 0px 3px 9px #040736
     position: absolute;
     z-index: -1;
     overflow: hidden;
-    padding-top: 210px;
+    padding-top: 20%;
 }
 
 .btn-primary{
@@ -647,7 +647,7 @@ text-shadow: 0px 3px 9px #040736
     }
 
     #contact-us-background{
-        padding-top: 80vh;
+        padding-top: 50vh;
     }
 
     .contacts-info{
@@ -756,13 +756,16 @@ text-shadow: 0px 3px 9px #040736
 
         .PaperVictor{
             position: absolute;
-            opacity: 0.3;
-           margin-left: 80px;
+            opacity: 0.3 !important;
+            margin-left: 80px;
+            margin-top: 100px;
         }
         .reflect{
             position: absolute;
-            opacity: 0.3;
-           right: 100px;
+            opacity: 0.3 !important;
+            right: 100px;
+            margin-top: 400px;
+
         }
        
         .pattern{
@@ -779,7 +782,7 @@ text-shadow: 0px 3px 9px #040736
         }
 
         #contact-us-background{
-            padding-top:40vh;
+            padding-top:10vh;
         }
 
         .contact-element{
