@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?ndeupv');
-  src:  url('fonts/icomoon.eot?ndeupv#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?ndeupv') format('truetype'),
-    url('fonts/icomoon.woff?ndeupv') format('woff'),
-    url('fonts/icomoon.svg?ndeupv#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?dssepm');
+  src:  url('fonts/icomoon.eot?dssepm#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?dssepm') format('truetype'),
+    url('fonts/icomoon.woff?dssepm') format('woff'),
+    url('fonts/icomoon.svg?dssepm#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -24,6 +24,29 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-man-avatar-2:before {
+  content: "\e917";
+}
+.icon-woman-avatar-2:before {
+  content: "\e918";
+}
+.icon-man-avatar:before {
+  content: "\e919";
+  text-align: center;
+  display: block;
+  margin: auto;
+  font-size: 6em;
+}
+.icon-woman-avatar:before {
+  content: "\e91a";
+  text-align: center;
+  display: block;
+  margin: auto;
+  font-size: 6em;
+}
+.icon-law-11:before {
+  content: "\e916";
+}
 .icon-assigment:before {
   content: "\e900";
 }
@@ -71,4 +94,40 @@
 }
 .icon-scales:before {
   content: "\e90f";
+}
+.icon-envelope:before {
+  content: "\e910";
+}
+.icon-mobile:before {
+  content: "\e911";
+}
+.icon-cell-phone:before {
+  content: "\e911";
+}
+.icon-handheld:before {
+  content: "\e911";
+}
+.icon-phone:before {
+  content: "\e912";
+}
+.icon-telephone:before {
+  content: "\e912";
+}
+.icon-contact:before {
+  content: "\e912";
+}
+.icon-support:before {
+  content: "\e912";
+}
+.icon-call:before {
+  content: "\e912";
+}
+.icon-envelope1:before {
+  content: "\e913";
+}
+.icon-cheveron-down:before {
+  content: "\e914";
+}
+.icon-twitter:before {
+  content: "\e915";
 }
