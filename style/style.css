@@ -33,6 +33,31 @@
     color: white;
 }
 
+.languge-box{
+    position: absolute;
+    width: 100%;
+}
+.languge-box ul{
+    list-style: none;
+    display: flex;
+    direction: ltr;
+    
+}
+
+.languge-box li{
+  margin: 20px;
+  font-size:0.7em;
+  justify-content: flex-end;
+}
+
+  .languge-box a{
+      text-decoration: none;
+      color: #fff;
+  }
+
+  .current-languge{
+      background-color: white;
+  }
 
 /* .underline-link:before {
   content: "";
@@ -614,7 +639,7 @@ text-shadow: 0px 3px 9px #040736
     margin-top: 25vh;
 }
 footer{
-    height: 5vh;
+    height: 8vh;
     margin-top: 58vh;
     background-color: #040736;
 }
