@@ -582,7 +582,7 @@ text-shadow: 0px 3px 9px #040736
     background-image: url("../Images/contactus.svg"); 
     
     background-repeat: no-repeat;
-    background-size: cover;
+    background-position: bottom;
 
 }
 
@@ -632,15 +632,14 @@ text-shadow: 0px 3px 9px #040736
 }
 
 .map-link{
-    height: 32vh;
+    height: 20vh;
     width: 100%;
-    position: absolute;
     background-color: rgb(245,245,245,0);
-    margin-top: 25vh;
+    /* margin-top: 25vh; */
 }
 footer{
     height: 8vh;
-    margin-top: 58vh;
+    /* margin-top: 58vh; */
     background-color: #040736;
 }
 hr.copyright-line{
@@ -648,6 +647,7 @@ hr.copyright-line{
     border: 1px solid white;
 }
 footer span{
+    padding-top: 2%;
     display: block;
     color: white;
     text-align: center;
@@ -684,7 +684,9 @@ footer span{
         width: 100%;
         height: 25vh;
     }
-
+    footer span{
+        padding-top: 4%;
+    }
     .card-title {
         margin-top: 20px;
         font-size: 0.6em;
@@ -725,9 +727,9 @@ footer span{
 
     #Contactus{
         background-image: url("../Images/contactus.svg"); 
-        background-position: -1600px 0px;
+        /* background-position: -1600px 0px; */
         background-repeat: no-repeat;
-        background-size: cover;
+        background-position: bottom;
     
     }
   }
@@ -742,7 +744,9 @@ footer span{
           background-image: url("/Images/Law-Hero-mobile.svg");
           background-position:center;
     }
-    
+    footer span{
+        padding-top: 2%;
+    }
     .logo{
         display: block;
         margin: auto;
@@ -848,9 +852,9 @@ footer span{
         }
 
         #Contactus{
-            background-image: url("../Images/contactus.svg"); 
-            background-position: -1400px 0px;
+            background-image: url("../Images/contactus-mobile.svg"); 
             background-repeat: no-repeat;
+            background-position: bottom;
             background-size: cover;
         
         }
