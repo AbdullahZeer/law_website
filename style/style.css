@@ -108,8 +108,11 @@
 
 .logo{
     display: block;
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -80px;
     width: 200px;
+    
 }
 .header{
     display: flex;
@@ -551,7 +554,7 @@ text-shadow: 0px 3px 9px #040736
 }
 
 #Contactus{
-    /* background-image: url("../Images/contactus.svg"); */
+    background-image: url("../Images/contactus.svg"); 
     
     background-repeat: no-repeat;
     background-size: cover;
@@ -581,7 +584,7 @@ text-shadow: 0px 3px 9px #040736
     margin-left: auto;
     margin-right: auto;
     width: 37%;
-    border: 2px dotted #040736;
+    border-left: 6px solid #040736;
 }
 .contact-element{
     display: block;
@@ -603,6 +606,27 @@ text-shadow: 0px 3px 9px #040736
     padding-top: 20%;
 }
 
+.map-link{
+    height: 32vh;
+    width: 100%;
+    position: absolute;
+    background-color: rgb(245,245,245,0);
+    margin-top: 25vh;
+}
+footer{
+    height: 5vh;
+    margin-top: 58vh;
+    background-color: #040736;
+}
+hr.copyright-line{
+    margin-top:10px;
+    border: 1px solid white;
+}
+footer span{
+    display: block;
+    color: white;
+    text-align: center;
+}
 .btn-primary{
     background-color: #040736 !important;
     border-color: #040736 !important;
@@ -655,7 +679,7 @@ text-shadow: 0px 3px 9px #040736
         margin-left: auto;
         margin-right: auto;
         width: 80%;
-        border: 2px dotted #040736;
+      
     }
 
     .hide-in-mobile{
@@ -667,6 +691,19 @@ text-shadow: 0px 3px 9px #040736
 
     #home{
         background-position: -600px 0px; 
+    }
+
+    nav a {
+        font-size: 1.3em;
+    
+    }
+
+    #Contactus{
+        background-image: url("../Images/contactus.svg"); 
+        background-position: -1600px 0px;
+        background-repeat: no-repeat;
+        background-size: cover;
+    
     }
   }
 
@@ -778,11 +815,19 @@ text-shadow: 0px 3px 9px #040736
             margin-left: auto;
             margin-right: auto;
             width: 95%;
-            border: 2px dotted #040736;
+           
         }
 
         #contact-us-background{
             padding-top:10vh;
+        }
+
+        #Contactus{
+            background-image: url("../Images/contactus.svg"); 
+            background-position: -1400px 0px;
+            background-repeat: no-repeat;
+            background-size: cover;
+        
         }
 
         .contact-element{
