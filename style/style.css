@@ -17,11 +17,27 @@
       background-color: #fefefe;
       overflow: hidden;
   }
-
+.carousel{
+    background-color: rgb(2,1,38);
+}
+#carouselExampleCaptions{
+    margin-top: 120px;
+}
+.carouselImg{
+    height: 50vh;
+    width: auto !important;
+    margin: auto;
+    filter: opacity(0.5);
+    -webkit-transition:  filter 1s; /* For Safari 3.1 to 6.0 */
+    transition: filter 1s;
+}
+.carouselImg:hover{
+    filter: opacity(0.8);
+}
 #home{
     color: white;
     height: 100vh;
-     background-image: url("/Images/Law-Hero.svg") ; 
+    background-image: url("/Images/Law-Hero.svg") ; 
     background-repeat: no-repeat;
     background-size: cover;
 }
