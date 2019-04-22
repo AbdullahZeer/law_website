@@ -17,12 +17,12 @@
       background-color: #fefefe;
       overflow: hidden;
   }
-.carousel{
+.carousel-row{
     background-color: rgb(2,1,38);
+    color:  rgb(2,1,38);
+    margin-top: 10%;
 }
-#carouselExampleCaptions{
-    margin-top: 120px;
-}
+
 .carouselImg{
     height: 50vh;
     width: auto !important;
